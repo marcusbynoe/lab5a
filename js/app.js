@@ -54,7 +54,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-  var add3 = sum(sum(a, b)[0], c)[0];
+  var add3 = sum(sum(a, b)[0], c)[0]; // credit to "Ahmed Sajjad" on stackoverflow for providing breakdown explanation for code.
   var multiply3 = multiply(multiply(a, b)[0], c)[0];
   let thridElem = `4 and 7 and 5 sum to ${add3}.`;
   let fourthElem = `The product of 4 and 7 and 5 is ${multiply3}.`;
